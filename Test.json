@@ -1,0 +1,499 @@
+{
+  "front-version": "2.10.1",
+  "version": 3,
+  "nodes": [
+    {
+      "type": "Project",
+      "id": "8f4f8c92-6a0a-4054-af34-efe1434483a0",
+      "lastModified": "2017-11-06T10:41:47.115+05:30",
+      "name": "Test",
+      "remoteModification": "2017-11-06T05:11:46.899Z"
+    },
+    {
+      "type": "Scenario",
+      "id": "90532a9c-9126-46a8-be94-bcfc1bbdce87",
+      "lastModified": "2017-11-06T10:41:46.747+05:30",
+      "name": "Scenario 1",
+      "requestOrder": [
+        "GET_SESSION_TOKEN_UNIVERSAL",
+        "CurlToken",
+        "QA publishSlate",
+        "publishSlate_Invalid_Token",
+        "publishSlate_Invalid_APIKey",
+        "publishSlate_Invalid_ProjectManifest"
+      ],
+      "parentId": "8f4f8c92-6a0a-4054-af34-efe1434483a0"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "requestBody": true,
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+        "name": "POST"
+      },
+      "body": {
+        "bodyType": "Text",
+        "autoSetLength": true,
+        "textBody": "{\n  \"projectManifest\": \"{projectManifest_Publish}\",\n  \"sectionManifest\": \"{sectionManifest_Publish}\",\n  \"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"c5test01@mctest.local\",\n\t\"timestamp\": \"2017-10-25T19:53:40.954Z\"\n} "
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": []
+        },
+        "scheme": {
+          "secure": true,
+          "name": "https",
+          "version": "V11"
+        },
+        "host": "test.api.pearson.com",
+        "path": "/content/tools/wip2cite/publishslate/v1"
+      },
+      "id": "06c7bc0f-fca1-457f-b722-fb66c758637b",
+      "lastModified": "2017-10-26T13:49:09.987+05:30",
+      "name": "publishSlate_Invalid_APIKey",
+      "remoteModification": "2017-10-25T09:47:05.216Z",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "x-apikey",
+          "value": "rGeFx6GAhgAU7XylJjWlGEhtvmAMW4xj1"
+        },
+        {
+          "enabled": true,
+          "name": "X-PearsonSSOSession",
+          "value": "${\"Test\".\"Scenario 1\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
+        },
+        {
+          "enabled": true,
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "enabled": true,
+          "name": "Origin",
+          "value": "http://localhost:3000"
+        }
+      ],
+      "assertions": [
+        {
+          "comparison": "Equals",
+          "subject": "ResponseStatus",
+          "path": "code",
+          "value": "401"
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$.fault.faultstring",
+          "value": "\"Invalid ApiKey\""
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "facebook|1527982327259678"
+      },
+      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "requestBody": true,
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+        "name": "POST"
+      },
+      "body": {
+        "bodyType": "Text",
+        "autoSetLength": true,
+        "textBody": ""
+      },
+      "headersType": "Form",
+      "uri": {
+        "scheme": {
+          "secure": true,
+          "name": "https",
+          "version": "V11"
+        },
+        "path": "{login}"
+      },
+      "id": "08dfee8d-0aef-4b13-931c-0e8643adb326",
+      "lastModified": "2017-10-25T16:09:45.402+05:30",
+      "name": "GET_SESSION_TOKEN_UNIVERSAL",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "enabled": true,
+          "name": "X-OpenAM-Username",
+          "value": "${usernameUniversal}"
+        },
+        {
+          "enabled": true,
+          "name": "X-OpenAM-Password",
+          "value": "${passwordUniversal}"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "facebook|1527982327259678"
+      },
+      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "requestBody": true,
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+        "name": "POST"
+      },
+      "body": {
+        "bodyType": "Text",
+        "autoSetLength": true,
+        "textBody": "{\n  \"projectManifest\": \"{projectManifest_Publish}\",\n  \"sectionManifest\": \"{sectionManifest_Publish}\",\n  \"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"c5test01@mctest.local\",\n\t\"timestamp\": \"2017-10-25T19:53:40.954Z\"\n} "
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": []
+        },
+        "scheme": {
+          "secure": true,
+          "name": "https",
+          "version": "V11"
+        },
+        "host": "test.api.pearson.com",
+        "path": "/content/tools/wip2cite/publishslate/v1"
+      },
+      "id": "49fbba05-ff16-4c3f-b998-a571bb3b75b7",
+      "lastModified": "2017-10-26T15:37:39.286+05:30",
+      "name": "publishSlate_Invalid_ProjectManifest",
+      "remoteModification": "2017-10-25T09:47:05.216Z",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "x-apikey",
+          "value": "rGeFx6GAhgAU7XylJjWlGEhtvmAMW4xj1"
+        },
+        {
+          "enabled": true,
+          "name": "X-PearsonSSOSession",
+          "value": "${\"Test\".\"Scenario 1\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
+        },
+        {
+          "enabled": true,
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "enabled": true,
+          "name": "Origin",
+          "value": "http://localhost:3000"
+        }
+      ],
+      "assertions": [
+        {
+          "comparison": "Equals",
+          "subject": "ResponseStatus",
+          "path": "code",
+          "value": "401"
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$.fault.faultstring",
+          "value": "\"Invalid ApiKey\""
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "facebook|1527982327259678"
+      },
+      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "requestBody": true,
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+        "name": "POST"
+      },
+      "body": {
+        "bodyType": "Text",
+        "autoSetLength": true,
+        "textBody": "{\n  \"projectManifest\": \"{projectManifest_Publish}\",\n  \"sectionManifest\": \"{sectionManifest_Publish}\",\n  \"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"c5test01@mctest.local\",\n\t\"timestamp\": \"2017-10-25T19:53:40.954Z\"\n} "
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": []
+        },
+        "scheme": {
+          "secure": true,
+          "name": "https",
+          "version": "V11"
+        },
+        "host": "test.api.pearson.com",
+        "path": "/content/tools/wip2cite/publishslate/v1"
+      },
+      "id": "57af4860-e460-427d-8998-51260b979245",
+      "lastModified": "2017-10-26T13:40:29.906+05:30",
+      "name": "QA publishSlate",
+      "remoteModification": "2017-10-25T09:47:05.216Z",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "x-apikey",
+          "value": "rGeFx6GAhgAU7XylJjWlGEhtvmAMW4xj"
+        },
+        {
+          "enabled": true,
+          "name": "X-PearsonSSOSession",
+          "value": "${\"Test\".\"Scenario 1\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
+        },
+        {
+          "enabled": true,
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "enabled": true,
+          "name": "Origin",
+          "value": "http://localhost:3000"
+        }
+      ],
+      "assertions": [
+        {
+          "comparison": "Equals",
+          "subject": "ResponseStatus",
+          "path": "code",
+          "value": "200"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "facebook|1527982327259678"
+      },
+      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "requestBody": true,
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+        "name": "POST"
+      },
+      "body": {
+        "bodyType": "Text",
+        "autoSetLength": true,
+        "textBody": "{\n  \"projectManifest\": \"{projectManifest_Publish}\",\n  \"sectionManifest\": \"{sectionManifest_Publish}\",\n  \"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"c5test01@mctest.local\",\n\t\"timestamp\": \"2017-10-25T19:53:40.954Z\"\n} "
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": []
+        },
+        "scheme": {
+          "secure": true,
+          "name": "https",
+          "version": "V11"
+        },
+        "host": "test.api.pearson.com",
+        "path": "/content/tools/wip2cite/publishslate/v1"
+      },
+      "id": "9313f66e-aaf6-4ab7-9747-bad682cce7c8",
+      "lastModified": "2017-10-26T13:40:29.906+05:30",
+      "name": "publishSlate_Invalid_Token",
+      "remoteModification": "2017-10-25T09:47:05.216Z",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "x-apikey",
+          "value": "rGeFx6GAhgAU7XylJjWlGEhtvmAMW4xj"
+        },
+        {
+          "enabled": true,
+          "name": "X-PearsonSSOSession",
+          "value": "${\"Test\".\"Scenario 1\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}1"
+        },
+        {
+          "enabled": true,
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "enabled": true,
+          "name": "Origin",
+          "value": "http://localhost:3000"
+        }
+      ],
+      "assertions": [
+        {
+          "comparison": "Equals",
+          "subject": "ResponseStatus",
+          "path": "code",
+          "value": "401"
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$.valid",
+          "value": "\"false\""
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$.reason",
+          "value": "\"SSO Session is invalid\""
+        }
+      ],
+      "metaInfo": {
+        "ownerId": "facebook|1527982327259678"
+      },
+      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "requestBody": true,
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+        "name": "POST"
+      },
+      "body": {
+        "formBody": {
+          "overrideContentType": true,
+          "encoding": "application/x-www-form-urlencoded"
+        },
+        "bodyType": "Text",
+        "autoSetLength": true
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": []
+        },
+        "scheme": {
+          "secure": true,
+          "name": "https",
+          "version": "V11"
+        },
+        "host": "identity-internal-test.pearson.com",
+        "path": "/auth/json/pearson/authenticate"
+      },
+      "id": "bd895f73-8af1-48c7-927b-207e6665e44c",
+      "lastModified": "2017-10-25T15:24:24.718+05:30",
+      "name": "CurlToken",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "enabled": true,
+          "name": "postman-token",
+          "value": "47b97d5a-8ddc-dd5c-b380-aac807a2e2dc"
+        },
+        {
+          "enabled": true,
+          "name": "x-openam-password",
+          "value": "Password1"
+        },
+        {
+          "enabled": true,
+          "name": "x-openam-username",
+          "value": "sso3"
+        }
+      ],
+      "metaInfo": {},
+      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
+    },
+    {
+      "type": "Context",
+      "contextType": "Global",
+      "id": "550E56FA-5DCB-4DE4-B5A0-52B104DC55D0",
+      "lastModified": "2017-10-26T13:38:42.390+05:30",
+      "name": "C2-SCAPI-PPE-Apigee",
+      "variables": [
+        {
+          "enabled": true,
+          "name": "server",
+          "value": "staging.api.pearson.com"
+        },
+        {
+          "enabled": true,
+          "name": "endpoint",
+          "value": "content/scapi"
+        },
+        {
+          "enabled": true,
+          "name": "protocol",
+          "value": "https"
+        },
+        {
+          "enabled": true,
+          "name": "keyName",
+          "value": "SCAPI-staging"
+        },
+        {
+          "enabled": true,
+          "name": "X-ApiKey",
+          "value": "7ij8zrLkCNR9DtAXx3KJ6yutoYnk4SAx"
+        },
+        {
+          "enabled": true,
+          "name": "apikey",
+          "value": "7ij8zrLkCNR9DtAXx3KJ6yutoYnk4SAx"
+        },
+        {
+          "enabled": true,
+          "name": "SessionName",
+          "value": "X-PearsonSSOSession"
+        },
+        {
+          "enabled": true,
+          "name": "ApiKeyName",
+          "value": "X-ApiKey"
+        },
+        {
+          "enabled": true,
+          "name": "usernameUniversal",
+          "value": "c2test08"
+        },
+        {
+          "enabled": true,
+          "name": "passwordUniversal",
+          "value": "password1"
+        },
+        {
+          "enabled": true,
+          "name": "login",
+          "value": "identity-internal-test.pearson.com/auth/json/pearson/authenticate"
+        },
+        {
+          "enabled": true,
+          "name": "CITEURN",
+          "value": "urn:pearson:manifestation:ppe90506-f7b5-45f8-ac66-73ead02d9ccf"
+        },
+        {
+          "enabled": true,
+          "name": "projectManifest_Publish",
+          "value": "urn:pearson:manifestation:ppe917bb-65b0-457b-aafe-022f82596407"
+        },
+        {
+          "enabled": true,
+          "name": "sectionManifest_Publish",
+          "value": "urn:pearson:manifestation:b27971d4-a191-40ed-a2c9-186a3f9cb4e1"
+        },
+        {
+          "enabled": true,
+          "name": "citeManifest_Publish",
+          "value": "urn:pearson:manifestation:ppe90506-f7b5-45f8-ac66-73ead02d9ccf"
+        }
+      ]
+    }
+  ]
+}
