@@ -5,22 +5,22 @@
     {
       "type": "Project",
       "id": "8f4f8c92-6a0a-4054-af34-efe1434483a0",
-      "lastModified": "2017-11-06T10:41:47.115+05:30",
+      "lastModified": "2017-11-06T14:57:17.735+05:30",
       "name": "Test",
-      "remoteModification": "2017-11-06T05:11:46.899Z"
+      "remoteModification": "2017-11-06T09:27:15.212Z"
     },
     {
       "type": "Scenario",
       "id": "90532a9c-9126-46a8-be94-bcfc1bbdce87",
-      "lastModified": "2017-11-06T10:41:46.747+05:30",
+      "lastModified": "2017-11-06T14:57:14.991+05:30",
       "name": "Scenario 1",
       "requestOrder": [
-        "GET_SESSION_TOKEN_UNIVERSAL",
         "CurlToken",
         "QA publishSlate",
         "publishSlate_Invalid_Token",
-        "publishSlate_Invalid_APIKey",
-        "publishSlate_Invalid_ProjectManifest"
+        "GET_SESSION_TOKEN_UNIVERSAL",
+        "publishSlate_Invalid_ProjectManifest",
+        "publishSlate_Invalid_APIKey"
       ],
       "parentId": "8f4f8c92-6a0a-4054-af34-efe1434483a0"
     },
