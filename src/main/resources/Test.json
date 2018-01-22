@@ -5,9 +5,9 @@
     {
       "type": "Project",
       "id": "8f4f8c92-6a0a-4054-af34-efe1434483a0",
-      "lastModified": "2018-01-18T12:17:21.390+05:30",
+      "lastModified": "2018-01-22T11:37:19.935+05:30",
       "name": "Test",
-      "remoteModification": "2018-01-18T06:47:11.181Z"
+      "remoteModification": "2018-01-22T06:07:19.815Z"
     },
     {
       "type": "Scenario",
@@ -133,7 +133,7 @@
         "path": "/{endpoint}/{Publish_Title_URN}"
       },
       "id": "012b51f3-913f-412f-a4cf-595c61cf4f3a",
-      "lastModified": "2018-01-09T14:27:14.466+05:30",
+      "lastModified": "2018-01-19T17:31:23.677+05:30",
       "name": "C4T-207_TC025_Verify the Ordering of chapters and Slates in WIP and Preview with Multiple chapters having Multiple slates swapped together",
       "headers": [
         {
@@ -198,17 +198,17 @@
           "comparison": "Contains",
           "subject": "ResponseJsonBody",
           "path": "$..*[label]",
-          "value": "DO NOT DELETE CH SLATE1"
+          "value": "Chapter 3 DO NOT DELETE C4 Automation CH2"
         },
         {
           "comparison": "Contains",
           "subject": "ResponseJsonBody",
           "path": "$..*[label]",
-          "value": "DO NOT DELE PLS"
+          "value": "Chapter 4 DO NOT DELETE C4 Automation_Nathish"
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -306,7 +306,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -403,7 +403,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -494,7 +494,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -603,7 +603,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -754,7 +754,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -851,7 +851,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -948,7 +948,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -1063,7 +1063,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -1160,7 +1160,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -1206,7 +1206,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
+        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -1351,7 +1351,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -1379,7 +1379,7 @@
         "path": "/{endpoint}/{MathMl_H3_Section Manifest}"
       },
       "id": "20336036-6fb3-4be6-ba29-043aacd6570f",
-      "lastModified": "2017-11-24T18:18:38.060+05:30",
+      "lastModified": "2018-01-22T11:32:36.146+05:30",
       "name": "C4T-312_TC017_Verify_MathMl element is transformed with Headings 3",
       "headers": [
         {
@@ -1463,10 +1463,46 @@
           "subject": "ResponseJsonBody",
           "path": "$.elementdata.mathml.[xml]",
           "value": "\"<math xmlns=\\\"http://www.w3.org/1998/Math/MathML\\\"><msup><mn>2</mn><mn>3</mn></msup></math>\""
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$.type",
+          "value": "element-authoredtext"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.subtype",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.schema",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.elementdata.headers",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.mgmtinfo",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.mgmtinfo.trackingdocumentid",
+          "value": "200"
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -1581,7 +1617,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -1678,7 +1714,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -1775,7 +1811,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -1926,7 +1962,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -2029,7 +2065,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -2057,7 +2093,7 @@
         "path": "/{endpoint}/{MathMl_H6_Section Manifest}"
       },
       "id": "3d9f0c56-c320-4f3f-a483-5e5c4f2a21b9",
-      "lastModified": "2017-11-24T18:23:27.708+05:30",
+      "lastModified": "2018-01-22T11:35:16.084+05:30",
       "name": "C4T-312_TC020_Verify_MathMl element is transformed with Heading 6",
       "headers": [
         {
@@ -2141,10 +2177,40 @@
           "subject": "ResponseJsonBody",
           "path": "$.elementdata.mathml.[xml]",
           "value": "\"<math xmlns=\\\"http://www.w3.org/1998/Math/MathML\\\"><mfrac bevelled=\\\"true\\\"><mn>2</mn><mn>3</mn></mfrac></math>\""
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.subtype",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.schema",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.elementdata.headers",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.mgmtinfo",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.mgmtinfo.trackingdocumentid",
+          "value": "200"
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -2259,7 +2325,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -2404,7 +2470,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -2463,7 +2529,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
+        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -2578,7 +2644,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -2610,7 +2676,7 @@
         "path": "/content/tools/wip2cite/publishtitle/v1/"
       },
       "id": "49184685-2ea3-4378-a83c-d6de7746aaf9",
-      "lastModified": "2018-01-17T17:15:21.161+05:30",
+      "lastModified": "2018-01-22T11:00:38.108+05:30",
       "name": "C4T-253_TC003_Verify_Publish Title for Single Chapter with single slate Title  in WIP and Chaucer UI",
       "remoteModification": "2017-11-08T09:34:57.083Z",
       "headers": [
@@ -2633,6 +2699,56 @@
           "enabled": true,
           "name": "X-PearsonSSOSession",
           "value": "${\"Test\".\"S2\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
+        }
+      ],
+      "assertions": [
+        {
+          "comparison": "Equals",
+          "subject": "ResponseStatus",
+          "path": "code",
+          "value": "200"
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$.status",
+          "value": "Success"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data",
+          "value": "previewURL"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "projectManifest"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "sectionManifest"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "citeManifest"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "requester"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "timestamp"
         }
       ],
       "metaInfo": {
@@ -2664,7 +2780,7 @@
         "path": "/{endpoint}/{Publish_Title_URN}"
       },
       "id": "4a822177-0720-49a6-8359-0ce59b4304b3",
-      "lastModified": "2018-01-09T13:31:51.935+05:30",
+      "lastModified": "2018-01-18T14:52:42.741+05:30",
       "name": "C4T-207_TC007_Verify the Chapter Title in CITE Preview with Single Chapter Title having single slate",
       "headers": [
         {
@@ -2729,11 +2845,11 @@
           "comparison": "Contains",
           "subject": "ResponseJsonBody",
           "path": "$..*[label]",
-          "value": "Bullet"
+          "value": "DontDelete_C4Automation_ModuleLevelTrnsformation_Prasanna"
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -2848,7 +2964,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -2880,7 +2996,7 @@
         "path": "/content/tools/wip2cite/publishtitle/v1/"
       },
       "id": "4faf3cdd-f7b9-4d8a-8a92-02fff1b25af6",
-      "lastModified": "2017-11-24T19:12:31.176+05:30",
+      "lastModified": "2018-01-22T11:07:56.608+05:30",
       "name": "C4T-253_TC005_Verify_Publish Title for Multiple Chapter with single slate Title  in WIP and Chaucer UI",
       "remoteModification": "2017-11-08T09:34:57.083Z",
       "headers": [
@@ -2905,8 +3021,58 @@
           "value": "${\"Test\".\"S2\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
         }
       ],
+      "assertions": [
+        {
+          "comparison": "Equals",
+          "subject": "ResponseStatus",
+          "path": "code",
+          "value": "200"
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$.status",
+          "value": "Success"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data",
+          "value": "previewURL"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "projectManifest"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "sectionManifest"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "citeManifest"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "requester"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "timestamp"
+        }
+      ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -3021,7 +3187,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -3172,7 +3338,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -3197,10 +3363,10 @@
           "name": "{protocol}"
         },
         "host": "{server}",
-        "path": "/{endpoint}/urn:pearson:manifestation:64e72a70-837d-4e08-b261-e4a17d66e58b"
+        "path": "/{endpoint}/{SubTitle_Map_Video_URN}"
       },
       "id": "5e1815a3-ce3b-4f7c-ad8c-3bd4bfc75110",
-      "lastModified": "2018-01-05T13:14:56.888+05:30",
+      "lastModified": "2018-01-18T15:08:42.889+05:30",
       "name": "C4T-529_TC001_Veriy Title and Subtitle are previewed in bold sans-serif in CITE for a Image_Figure_Full",
       "headers": [
         {
@@ -3269,7 +3435,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -3414,7 +3580,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -3517,7 +3683,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -3620,7 +3786,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -3717,7 +3883,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -3868,7 +4034,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -3893,10 +4059,10 @@
           "name": "{protocol}"
         },
         "host": "{server}",
-        "path": "/{endpoint}/urn:pearson:manifestation:64e72a70-837d-4e08-b261-e4a17d66e58b"
+        "path": "/{endpoint}/{SubTitle_Map_Video_URN}"
       },
       "id": "729ae049-d280-432e-b6a1-81a0a7dc7477",
-      "lastModified": "2018-01-05T13:17:14.559+05:30",
+      "lastModified": "2018-01-18T15:08:02.783+05:30",
       "name": "C4T-529_TC002_Veriy Title and Subtitle are previewed in bold sans-serif in CITE for a Image_Figure_Half text",
       "headers": [
         {
@@ -3965,7 +4131,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -3993,7 +4159,7 @@
         "path": "/{endpoint}/{MathMl_H2_Section Manifest}"
       },
       "id": "7315c219-3f90-497c-80c5-04b16695d1d4",
-      "lastModified": "2017-11-24T18:18:16.447+05:30",
+      "lastModified": "2018-01-22T11:23:17.324+05:30",
       "name": "C4T-312_TC016_Verify_MathMl element is transformed with Heading 2",
       "headers": [
         {
@@ -4077,10 +4243,46 @@
           "subject": "ResponseJsonBody",
           "path": "$.elementdata.mathml.[xml]",
           "value": "\"<math xmlns=\\\"http://www.w3.org/1998/Math/MathML\\\"><msqrt><mn>2</mn></msqrt></math>\""
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$.type",
+          "value": "element-authoredtext"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.subtype",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.schema",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.elementdata.headers",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.mgmtinfo",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.mgmtinfo.trackingdocumentid",
+          "value": "200"
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -4195,7 +4397,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -4227,7 +4429,7 @@
         "path": "/content/tools/wip2cite/publishtitle/v1/"
       },
       "id": "777acfa1-bb3f-44a8-9e9b-b9ca87579783",
-      "lastModified": "2018-01-17T17:14:40.932+05:30",
+      "lastModified": "2018-01-22T11:03:15.656+05:30",
       "name": "C4T-253_TC004_Verify_Publish Title for Single Chapter with multiple slate Title in WIP and Chaucer UI",
       "remoteModification": "2017-11-08T09:34:57.083Z",
       "headers": [
@@ -4252,8 +4454,58 @@
           "value": "http://localhost:3000"
         }
       ],
+      "assertions": [
+        {
+          "comparison": "Equals",
+          "subject": "ResponseStatus",
+          "path": "code",
+          "value": "200"
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$.status",
+          "value": "Success"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data",
+          "value": "previewURL"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "projectManifest"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "sectionManifest"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "citeManifest"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "requester"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "timestamp"
+        }
+      ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -4350,7 +4602,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -4453,7 +4705,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -4586,7 +4838,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -4701,7 +4953,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -4816,7 +5068,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -4913,7 +5165,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -5010,7 +5262,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -5113,7 +5365,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -5264,7 +5516,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -5415,7 +5667,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -5443,7 +5695,7 @@
         "path": "/{endpoint}/{MathMl_H5_Section Manifest}"
       },
       "id": "87d7ba87-eafb-49cd-89cc-c95209b3f868",
-      "lastModified": "2017-11-24T18:21:22.190+05:30",
+      "lastModified": "2018-01-22T11:33:59.464+05:30",
       "name": "C4T-312_TC019_Verify_MathMl element is transformed with Heading 5",
       "headers": [
         {
@@ -5527,10 +5779,52 @@
           "subject": "ResponseJsonBody",
           "path": "$.elementdata.mathml.[xml]",
           "value": "\"<math xmlns=\\\"http://www.w3.org/1998/Math/MathML\\\"><mfenced open=\\\"|\\\" close=\\\"|\\\"><mn>3</mn></mfenced></math>\""
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$.type",
+          "value": "element-authoredtext"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.subtype",
+          "value": "200"
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseStatus",
+          "path": "code",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.schema",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.elementdata.headers",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.mgmtinfo",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.mgmtinfo.trackingdocumentid",
+          "value": "200"
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -5633,20 +5927,21 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
     {
       "type": "Request",
       "method": {
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
-        "name": "GET"
+        "requestBody": true,
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+        "name": "POST"
       },
       "body": {
         "bodyType": "Text",
         "autoSetLength": true,
-        "textBody": "  {\n            \"description\": \"A Sample Activity containing a single shared writing bric\",\n            \"targetSelectorValues\": [ \"SWQ1-cntr\" ],\n\n            \"sequenceNodeKey\": \"b3d5b510-34dd-480f-b8e1-b474522c9b03\",\n            \"maxAttempts\": 3,\n\n            \"containerConfig\":\n            [\n                {\n                    \"description\": \"container for the shared writing question\",\n                    \"containerId\": \"SWQ1-cntr\",\n                    \"brixConfig\":\n                    [\n                        {\n                            \"bricId\": \"swq1\",\n                            \"bricType\": \"SharedWritingQuestion\",\n                            \"config\":\n                            {\n                                \"id\": \"swq-00001\",\n                                \"prompt\": \"How would you characterize the state of the magic forest today and why?\",\n                                \"minChars\": 8\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"questionId\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                }\n                            ],\n                            \"answerKey\":\n                            {\n                                \"assessmentType\": \"discussions\",\n                                \"answers\":\n                                {\n                                    \"masterTopicId\": \"01f60e54-2fc2-4bce-a292-a2f545c9bf48\"\n                                }\n                            }\n                        }\n                    ],\n                    \"mortarConfig\":\n                    [\n                        {\n                            \"mortarId\": \"interaction\",\n                            \"mortarType\": \"InteractionLifecycleEvent\",\n                            \"config\":\n                            {\n                                \"id\": \"swInteraction\",\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"topic\",\n                                    \"value\":\n                                    {\n                                        \"type\": \"brix-topic\",\n                                        \"bricType\": \"SharedWritingQuestion\",\n                                        \"instanceId\": \"swq-00001\",\n                                        \"eventName\": \"value-changed\"\n                                    }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"seqNodeKey\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"requestManager\",\n                                    \"value\": { \"type\": \"request-manager\" }\n                                }\n                            ]\n                        }\n                    ],\n                    \"hookupActions\":\n                    [\n                        {\n                            \"description\": \"Hookup the request manager to evaluate answers\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for discussion posts\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleGetPostsRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for adding topic comments\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleAddTopicCommentRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Draw the question\",\n                            \"type\": \"method-call\",\n                            \"instance\": {\"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\"},\n                            \"methodName\": \"draw\",\n                            \"args\":\n                            [\n                                { \"type\": \"d3select\", \"targetSelectorIndex\": 0 }\n                            ]\n                        }\n                    ]\n                }\n            ]\n        }\n"
+        "textBody": "{\n  \"projectManifest\": \"{projectManifest_Publish}\", \n  \"sectionManifest\": \"\", \n  \"citeManifest\": \"{citeManifest_Publish}\", \n  \"requester\": \"c5test01@mctest.local\", \n  \"timestamp\": \"2017-10-23T10:06:56.155Z\" \n}"
       },
       "headersType": "Form",
       "uri": {
@@ -5655,13 +5950,15 @@
           "items": []
         },
         "scheme": {
-          "name": "{protocol}"
+          "secure": true,
+          "name": "https",
+          "version": "V11"
         },
-        "host": "{server}",
-        "path": "/{endpoint}/urn:pearson:manifestation:09cae180-76b5-4a2c-b783-dcda8deea0fc"
+        "host": "staging.api.pearson.com",
+        "path": "/content/tools/wip2cite/publishtitle/v1/"
       },
       "id": "91cbfa27-0be1-4989-95a2-3711aecba8ab",
-      "lastModified": "2017-11-24T19:16:35.325+05:30",
+      "lastModified": "2018-01-22T10:42:35.389+05:30",
       "name": "C4T-253_TC002_Verify_Publish slate for Multiple Chapter Title in WIP and Chaucer UI",
       "headers": [
         {
@@ -5683,6 +5980,11 @@
           "enabled": true,
           "name": "Origin",
           "value": "http://localhost:3000"
+        },
+        {
+          "enabled": true,
+          "name": "Content-Type",
+          "value": "application/json"
         }
       ],
       "assertions": [
@@ -5695,30 +5997,30 @@
         {
           "comparison": "Exists",
           "subject": "ResponseHeader",
-          "path": "contentdb-URN",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "contentdb-UUID",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "Location",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
           "path": "ETag",
           "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.status",
+          "value": "200"
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$.status",
+          "value": "Success"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data",
+          "value": "previewURL"
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -5821,7 +6123,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -5972,7 +6274,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -6069,7 +6371,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -6214,7 +6516,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -6329,7 +6631,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -6480,7 +6782,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -6631,7 +6933,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -6660,7 +6962,7 @@
       },
       "description": "",
       "id": "9df921a2-ba1d-47cc-8e42-51b2dba08113",
-      "lastModified": "2017-12-05T13:23:18.480+05:30",
+      "lastModified": "2018-01-22T11:21:56.006+05:30",
       "name": "C4T-312_TC001_Verify_MathMl element is transformed with header headings H1",
       "headers": [
         {
@@ -6726,10 +7028,46 @@
           "subject": "ResponseJsonBody",
           "path": "$.elementdata.mathml.[xml]",
           "value": "\"<math xmlns=\\\"http://www.w3.org/1998/Math/MathML\\\"><msqrt><mn>2</mn></msqrt></math>\""
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$.type",
+          "value": "element-authoredtext"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.subtype",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.schema",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.designtype",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.mgmtinfo",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.mgmtinfo.trackingdocumentid",
+          "value": "200"
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -6760,7 +7098,7 @@
         "path": "/content/tools/wip2cite/publishtitle/v1/"
       },
       "id": "a54b461b-a87b-4d97-9c12-83580be79064",
-      "lastModified": "2018-01-17T18:29:22.988+05:30",
+      "lastModified": "2018-01-22T10:49:55.491+05:30",
       "name": "C4T-253_TC001_Verify_Publish slate for Single Chapter Title in WIP and Chaucer UI",
       "headers": [
         {
@@ -6801,10 +7139,22 @@
           "subject": "ResponseStatus",
           "path": "code",
           "value": "200"
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$.status",
+          "value": "Success"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data",
+          "value": "previewURL"
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -6895,7 +7245,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -6998,7 +7348,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -7023,10 +7373,10 @@
           "name": "{protocol}"
         },
         "host": "{server}",
-        "path": "/{endpoint}/urn:pearson:manifestation:64e72a70-837d-4e08-b261-e4a17d66e58b"
+        "path": "/{endpoint}/{SubTitle_Map_Video_URN}"
       },
       "id": "ac892524-0b36-4254-a87e-d1e5f2c70505",
-      "lastModified": "2018-01-05T13:17:32.673+05:30",
+      "lastModified": "2018-01-18T15:08:02.575+05:30",
       "name": "C4T-529_TC004_Veriy Title and Subtitle are previewed in bold sans-serif in CITE for a Image_Figure_Text Width",
       "headers": [
         {
@@ -7095,7 +7445,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -7127,7 +7477,7 @@
         "path": "/content/tools/wip2cite/publishtitle/v1/"
       },
       "id": "aea2ee45-5928-4466-be8d-657d662122dd",
-      "lastModified": "2017-11-24T19:16:03.101+05:30",
+      "lastModified": "2018-01-22T11:10:35.706+05:30",
       "name": "C4T-253_TC006_Verify_Publish Title for Mutliple Chapter with multiple slate Title in WIP and Chaucer UI",
       "remoteModification": "2017-11-08T09:34:57.083Z",
       "headers": [
@@ -7152,8 +7502,52 @@
           "value": "http://localhost:3000"
         }
       ],
+      "assertions": [
+        {
+          "comparison": "Equals",
+          "subject": "ResponseStatus",
+          "path": "code",
+          "value": "200"
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$.status",
+          "value": "Success"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data",
+          "value": "previewURL"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "projectManifest"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "citeManifest"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "requester"
+        },
+        {
+          "comparison": "Contains",
+          "subject": "ResponseJsonBody",
+          "path": "$.data.input",
+          "value": "timestamp"
+        }
+      ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -7304,7 +7698,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -7332,7 +7726,7 @@
         "path": "/{endpoint}/{MathMl_LO_Section Manifest}"
       },
       "id": "aed6e4ed-765b-4f00-866d-25ef2ca52816",
-      "lastModified": "2017-11-24T18:26:48.430+05:30",
+      "lastModified": "2018-01-22T11:36:36.114+05:30",
       "name": "C4T-312_TC006_Verify_MathMl element is transformed with learning objectives",
       "headers": [
         {
@@ -7416,10 +7810,40 @@
           "subject": "ResponseJsonBody",
           "path": "$.elementdata.mathml.[xml]",
           "value": "\"<math xmlns=\\\"http://www.w3.org/1998/Math/MathML\\\"><msqrt><mn>23</mn></msqrt></math>\""
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.subtype",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.schema",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.elementdata.headers",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.mgmtinfo",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.mgmtinfo.trackingdocumentid",
+          "value": "200"
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -7444,10 +7868,10 @@
           "name": "{protocol}"
         },
         "host": "{server}",
-        "path": "/{endpoint}/urn:pearson:manifestation:64e72a70-837d-4e08-b261-e4a17d66e58b"
+        "path": "/{endpoint}/{SubTitle_Map_Video_URN}"
       },
       "id": "b093858e-fdb8-42ff-ab23-7a5cb24bc4dd",
-      "lastModified": "2018-01-05T13:17:23.335+05:30",
+      "lastModified": "2018-01-18T15:08:02.575+05:30",
       "name": "C4T-529_TC003_Veriy Title and Subtitle are previewed in bold sans-serif in CITE for a Image_Figure_Wider",
       "headers": [
         {
@@ -7516,7 +7940,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -7544,7 +7968,7 @@
         "path": "/{endpoint}/{MathMl_LOLIST_Section Manifest}"
       },
       "id": "b3d60aa5-4e8f-418a-b6b1-6a00decc6117",
-      "lastModified": "2017-11-24T18:40:39.206+05:30",
+      "lastModified": "2018-01-22T11:37:16.280+05:30",
       "name": "C4T-312_TC033_Verify_MathMl element is transformed with Learning Objective list",
       "headers": [
         {
@@ -7628,10 +8052,40 @@
           "subject": "ResponseJsonBody",
           "path": "$.elementdata.mathml.[xml]",
           "value": "\"<math xmlns=\\\"http://www.w3.org/1998/Math/MathML\\\"><mfenced><mn>2</mn></mfenced></math>\""
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.subtype",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.schema",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.elementdata.headers",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.mgmtinfo",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.mgmtinfo.trackingdocumentid",
+          "value": "200"
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -7734,7 +8188,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -7879,7 +8333,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -8030,7 +8484,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -8145,7 +8599,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -8296,7 +8750,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -8405,7 +8859,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -8502,7 +8956,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -8530,7 +8984,7 @@
         "path": "/{endpoint}/{MathMl_H4_Section Manifest}"
       },
       "id": "c7d33c0a-66ed-4305-9732-0ba52565ee9b",
-      "lastModified": "2017-11-24T18:21:01.890+05:30",
+      "lastModified": "2018-01-22T11:33:16.085+05:30",
       "name": "C4T-312_TC018_Verify_MathMl element is transformed with Heading 4",
       "headers": [
         {
@@ -8614,10 +9068,46 @@
           "subject": "ResponseJsonBody",
           "path": "$.elementdata.mathml.[xml]",
           "value": "\"<math xmlns=\\\"http://www.w3.org/1998/Math/MathML\\\"><mfenced><mn>3</mn></mfenced></math>\""
+        },
+        {
+          "comparison": "Equals",
+          "subject": "ResponseJsonBody",
+          "path": "$.type",
+          "value": "element-authoredtext"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.mgmtinfo.trackingdocumentid",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.mgmtinfo",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.elementdata.headers",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.schema",
+          "value": "200"
+        },
+        {
+          "comparison": "Exists",
+          "subject": "ResponseJsonBody",
+          "path": "$.subtype",
+          "value": "200"
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -8714,7 +9204,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -8829,7 +9319,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -8926,7 +9416,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -9041,7 +9531,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -9186,7 +9676,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -9283,7 +9773,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -9380,7 +9870,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -9531,7 +10021,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -9646,7 +10136,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -9797,7 +10287,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -9942,7 +10432,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -10040,7 +10530,7 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
     },
@@ -10143,2698 +10633,9 @@
         }
       ],
       "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
+        "ownerId": "auth0|5a6042413efb2e32b6c8cd58"
       },
       "parentId": "0f397f8c-7617-4c1c-8fd2-246393c7e99b"
-    },
-    {
-      "type": "Scenario",
-      "id": "90532a9c-9126-46a8-be94-bcfc1bbdce87",
-      "lastModified": "2017-11-22T16:47:29.951+05:30",
-      "name": "Publist Title - C4T-96-97-98-99",
-      "requestOrder": [
-        "CurlToken",
-        "C4T-97_TC001_map to CITE template_publishSlate_200",
-        "C4T-97_TC005_map to CITE template_publishSlate_InvalidToken",
-        "C4T-97_TC007_map to CITE template_publishSlate_InvalidInput_projectManifest",
-        "C4T-97_TC006_map to CITE template_publishSlate_InvalidApiKey",
-        "C4T-97_TC008_map to CITE template_publishSlate_InvalidInput_sectionManifest",
-        "C4T-97_TC009_map to CITE template_publishSlate_InvalidInput_citeManifest",
-        "C4T-97_TC011_publishSlate_Invalid URL",
-        "C4T-97_TC002_map to CITE template_publishSlate_failure",
-        "C4T-97_TC003_map to CITE template_publishSlate_error",
-        "C4T-97_TC004_map to CITE template_publishSlate_previewURL",
-        "GET_SESSION_TOKEN_UNIVERSAL",
-        "C4T-96_TC001_publishSlate_Read WIP from SCAPI_200",
-        "C4T-96_TC002_publishSlate_Read WIP from SCAPI_404",
-        "C4T-96_TC003_publishSlate_Read WIP from SCAPI_401",
-        "C4T-99_TC001_publishSlate_update CITE manifest_RetrieveJSON",
-        "C4T-99_TC002_publishSlate_update CITE manifest_RetrieveJSON",
-        "C4T-99_TC003_publishSlate_update CITE manifest_RetrieveJSON",
-        "C4T-99_TC004_publishSlate_update CITE manifest_RetrieveJSON",
-        "C4T-99_TC005_publishSlate_update CITE manifest_RetrieveJSON"
-      ],
-      "parentId": "8f4f8c92-6a0a-4054-af34-efe1434483a0"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \"projectManifest\": \"{projectManifest_Publish}\",\n  \"sectionManifest\": \"{sectionManifest_Publish}\",\n  \"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"c5test01@mctest.local\",\n\t\"timestamp\": \"2017-10-25T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "test.api.pearson.com",
-        "path": "/content/tools/wip2cite/publishslate/v1"
-      },
-      "id": "06c7bc0f-fca1-457f-b722-fb66c758637b",
-      "lastModified": "2017-11-29T13:26:58.779+05:30",
-      "name": "C4T-97_TC006_map to CITE template_publishSlate_InvalidApiKey",
-      "remoteModification": "2017-10-25T09:47:05.216Z",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "rGeFx6GAhgAU7XylJjWlGEhtvmAMW4xj1"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "401"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.fault.faultstring",
-          "value": "\"Invalid ApiKey\""
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
-        "name": "GET"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "  {\n            \"description\": \"A Sample Activity containing a single shared writing bric\",\n            \"targetSelectorValues\": [ \"SWQ1-cntr\" ],\n\n            \"sequenceNodeKey\": \"b3d5b510-34dd-480f-b8e1-b474522c9b03\",\n            \"maxAttempts\": 3,\n\n            \"containerConfig\":\n            [\n                {\n                    \"description\": \"container for the shared writing question\",\n                    \"containerId\": \"SWQ1-cntr\",\n                    \"brixConfig\":\n                    [\n                        {\n                            \"bricId\": \"swq1\",\n                            \"bricType\": \"SharedWritingQuestion\",\n                            \"config\":\n                            {\n                                \"id\": \"swq-00001\",\n                                \"prompt\": \"How would you characterize the state of the magic forest today and why?\",\n                                \"minChars\": 8\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"questionId\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                }\n                            ],\n                            \"answerKey\":\n                            {\n                                \"assessmentType\": \"discussions\",\n                                \"answers\":\n                                {\n                                    \"masterTopicId\": \"01f60e54-2fc2-4bce-a292-a2f545c9bf48\"\n                                }\n                            }\n                        }\n                    ],\n                    \"mortarConfig\":\n                    [\n                        {\n                            \"mortarId\": \"interaction\",\n                            \"mortarType\": \"InteractionLifecycleEvent\",\n                            \"config\":\n                            {\n                                \"id\": \"swInteraction\",\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"topic\",\n                                    \"value\":\n                                    {\n                                        \"type\": \"brix-topic\",\n                                        \"bricType\": \"SharedWritingQuestion\",\n                                        \"instanceId\": \"swq-00001\",\n                                        \"eventName\": \"value-changed\"\n                                    }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"seqNodeKey\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"requestManager\",\n                                    \"value\": { \"type\": \"request-manager\" }\n                                }\n                            ]\n                        }\n                    ],\n                    \"hookupActions\":\n                    [\n                        {\n                            \"description\": \"Hookup the request manager to evaluate answers\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for discussion posts\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleGetPostsRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for adding topic comments\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleAddTopicCommentRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Draw the question\",\n                            \"type\": \"method-call\",\n                            \"instance\": {\"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\"},\n                            \"methodName\": \"draw\",\n                            \"args\":\n                            [\n                                { \"type\": \"d3select\", \"targetSelectorIndex\": 0 }\n                            ]\n                        }\n                    ]\n                }\n            ]\n        }\n"
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "name": "{protocol}"
-        },
-        "host": "{server}",
-        "path": "/{endpoint}/urn:pearson:manifestation:118533fe-394f-402e-b21c-82d8c8c56de6"
-      },
-      "id": "0af2b1c3-fc32-4083-ac66-c0b09434faad",
-      "lastModified": "2017-11-22T17:23:08.918+05:30",
-      "name": "C4T-99_TC003_publishSlate_update CITE manifest_RetrieveJSON",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "Accept",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "{ApiKeyName}",
-          "value": "{X-ApiKey}"
-        },
-        {
-          "enabled": true,
-          "name": "{SessionName}",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"GET_SESSION_TOKEN_UNIVERSAL\".\"response\".\"body\".\"tokenId\"}${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "contentdb-URN",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "contentdb-UUID",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "Location",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "ETag",
-          "value": "200"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
-        "name": "GET"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "  {\n            \"description\": \"A Sample Activity containing a single shared writing bric\",\n            \"targetSelectorValues\": [ \"SWQ1-cntr\" ],\n\n            \"sequenceNodeKey\": \"b3d5b510-34dd-480f-b8e1-b474522c9b03\",\n            \"maxAttempts\": 3,\n\n            \"containerConfig\":\n            [\n                {\n                    \"description\": \"container for the shared writing question\",\n                    \"containerId\": \"SWQ1-cntr\",\n                    \"brixConfig\":\n                    [\n                        {\n                            \"bricId\": \"swq1\",\n                            \"bricType\": \"SharedWritingQuestion\",\n                            \"config\":\n                            {\n                                \"id\": \"swq-00001\",\n                                \"prompt\": \"How would you characterize the state of the magic forest today and why?\",\n                                \"minChars\": 8\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"questionId\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                }\n                            ],\n                            \"answerKey\":\n                            {\n                                \"assessmentType\": \"discussions\",\n                                \"answers\":\n                                {\n                                    \"masterTopicId\": \"01f60e54-2fc2-4bce-a292-a2f545c9bf48\"\n                                }\n                            }\n                        }\n                    ],\n                    \"mortarConfig\":\n                    [\n                        {\n                            \"mortarId\": \"interaction\",\n                            \"mortarType\": \"InteractionLifecycleEvent\",\n                            \"config\":\n                            {\n                                \"id\": \"swInteraction\",\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"topic\",\n                                    \"value\":\n                                    {\n                                        \"type\": \"brix-topic\",\n                                        \"bricType\": \"SharedWritingQuestion\",\n                                        \"instanceId\": \"swq-00001\",\n                                        \"eventName\": \"value-changed\"\n                                    }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"seqNodeKey\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"requestManager\",\n                                    \"value\": { \"type\": \"request-manager\" }\n                                }\n                            ]\n                        }\n                    ],\n                    \"hookupActions\":\n                    [\n                        {\n                            \"description\": \"Hookup the request manager to evaluate answers\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for discussion posts\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleGetPostsRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for adding topic comments\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleAddTopicCommentRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Draw the question\",\n                            \"type\": \"method-call\",\n                            \"instance\": {\"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\"},\n                            \"methodName\": \"draw\",\n                            \"args\":\n                            [\n                                { \"type\": \"d3select\", \"targetSelectorIndex\": 0 }\n                            ]\n                        }\n                    ]\n                }\n            ]\n        }\n"
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "name": "{protocol}"
-        },
-        "host": "{server}",
-        "path": "/{endpoint}/urn:pearson:manifestation:da0017b2-495f-4939-940e-3f68d302433f"
-      },
-      "id": "1c52b0f1-e0f8-45a1-a4b8-0ebcd0f2ee82",
-      "lastModified": "2017-12-22T12:55:10.599+05:30",
-      "name": "C4T-99_TC002_publishSlate_update CITE manifest_RetrieveJSON",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "Accept",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "{ApiKeyName}",
-          "value": "{X-ApiKey}"
-        },
-        {
-          "enabled": true,
-          "name": "{SessionName}",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"GET_SESSION_TOKEN_UNIVERSAL\".\"response\".\"body\".\"tokenId\"}${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "contentdb-URN",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "contentdb-UUID",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "Location",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "ETag",
-          "value": "200"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \"projectManifest\": \"{projectManifest_Publish}\",\n  \"sectionManifest\": \"{sectionManifest_Publish}\",\n  \"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"c5test01@mctest.local\",\n\t\"timestamp\": \"2017-10-25T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "test.api.pearson.com",
-        "path": "/content/tools/wip2cite/publishslate/v1123"
-      },
-      "id": "2a9d7522-1943-416d-a25c-e3d3733cfe19",
-      "lastModified": "2018-01-17T13:46:24.608+05:30",
-      "name": "C4T-97_TC011_publishSlate_Invalid URL",
-      "remoteModification": "2017-10-25T09:47:05.216Z",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "rGeFx6GAhgAU7XylJjWlGEhtvmAMW4xj"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Contains",
-          "subject": "ResponseJsonBody",
-          "path": "$.status",
-          "value": "Fail"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \"projectManifest\": \"{projectManifest_Publish}1\",\n  \"sectionManifest\": \"{sectionManifest_Publish}1\",\n  \"citeManifest\": \"{citeManifest_Publish}1\",\n\t\"requester\": \"c5test01@mctest.local1\",\n\t\"timestamp\": \"2017-10-25T19:53:40.954Z1\"\n} "
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "test.api.pearson.com",
-        "path": "/content/tools/wip2cite/publishslate/v1"
-      },
-      "id": "4334ef7c-efdb-4f55-9098-95ae20fc4802",
-      "lastModified": "2017-11-29T13:27:56.291+05:30",
-      "name": "C4T-97_TC002_map to CITE template_publishSlate_failure",
-      "remoteModification": "2017-10-25T09:47:05.216Z",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "rGeFx6GAhgAU7XylJjWlGEhtvmAMW4xj"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.status",
-          "value": "Fail:Error Get JSONWIPContent:"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \"projectManifest\": \"{projectManifest_Publish}1\",\n  \"sectionManifest\": \"{sectionManifest_Publish}\",\n  \"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"c5test01@mctest.local\",\n\t\"timestamp\": \"2017-10-25T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "test.api.pearson.com",
-        "path": "/content/tools/wip2cite/publishslate/v1"
-      },
-      "id": "49fbba05-ff16-4c3f-b998-a571bb3b75b7",
-      "lastModified": "2018-01-16T16:22:05.471+05:30",
-      "name": "C4T-97_TC007_map to CITE template_publishSlate_InvalidInput_projectManifest",
-      "remoteModification": "2017-10-25T09:47:05.216Z",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "rGeFx6GAhgAU7XylJjWlGEhtvmAMW4xj"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Contains",
-          "subject": "ResponseJsonBody",
-          "path": "$.status",
-          "value": "Fail"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
-        "name": "GET"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "  {\n            \"description\": \"A Sample Activity containing a single shared writing bric\",\n            \"targetSelectorValues\": [ \"SWQ1-cntr\" ],\n\n            \"sequenceNodeKey\": \"b3d5b510-34dd-480f-b8e1-b474522c9b03\",\n            \"maxAttempts\": 3,\n\n            \"containerConfig\":\n            [\n                {\n                    \"description\": \"container for the shared writing question\",\n                    \"containerId\": \"SWQ1-cntr\",\n                    \"brixConfig\":\n                    [\n                        {\n                            \"bricId\": \"swq1\",\n                            \"bricType\": \"SharedWritingQuestion\",\n                            \"config\":\n                            {\n                                \"id\": \"swq-00001\",\n                                \"prompt\": \"How would you characterize the state of the magic forest today and why?\",\n                                \"minChars\": 8\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"questionId\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                }\n                            ],\n                            \"answerKey\":\n                            {\n                                \"assessmentType\": \"discussions\",\n                                \"answers\":\n                                {\n                                    \"masterTopicId\": \"01f60e54-2fc2-4bce-a292-a2f545c9bf48\"\n                                }\n                            }\n                        }\n                    ],\n                    \"mortarConfig\":\n                    [\n                        {\n                            \"mortarId\": \"interaction\",\n                            \"mortarType\": \"InteractionLifecycleEvent\",\n                            \"config\":\n                            {\n                                \"id\": \"swInteraction\",\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"topic\",\n                                    \"value\":\n                                    {\n                                        \"type\": \"brix-topic\",\n                                        \"bricType\": \"SharedWritingQuestion\",\n                                        \"instanceId\": \"swq-00001\",\n                                        \"eventName\": \"value-changed\"\n                                    }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"seqNodeKey\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"requestManager\",\n                                    \"value\": { \"type\": \"request-manager\" }\n                                }\n                            ]\n                        }\n                    ],\n                    \"hookupActions\":\n                    [\n                        {\n                            \"description\": \"Hookup the request manager to evaluate answers\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for discussion posts\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleGetPostsRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for adding topic comments\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleAddTopicCommentRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Draw the question\",\n                            \"type\": \"method-call\",\n                            \"instance\": {\"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\"},\n                            \"methodName\": \"draw\",\n                            \"args\":\n                            [\n                                { \"type\": \"d3select\", \"targetSelectorIndex\": 0 }\n                            ]\n                        }\n                    ]\n                }\n            ]\n        }\n"
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "name": "{protocol}"
-        },
-        "host": "{server}",
-        "path": "/{endpoint}/{citeManifest_Publish}"
-      },
-      "id": "4ec2b601-cadb-48e2-b6ec-2a1a0a2dbfbf",
-      "lastModified": "2017-11-22T17:22:50.402+05:30",
-      "name": "C4T-96_TC003_publishSlate_Read WIP from SCAPI_401",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "Accept",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "{ApiKeyName}",
-          "value": "{X-ApiKey}"
-        },
-        {
-          "enabled": true,
-          "name": "{SessionName}",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"GET_SESSION_TOKEN_UNIVERSAL\".\"response\".\"body\".\"tokenId\"}${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "contentdb-URN",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "contentdb-UUID",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "Location",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "ETag",
-          "value": "200"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseHeader",
-          "path": "Content-Type",
-          "value": "application/json;charset=UTF-8"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \"projectManifest\": \"urn:pearson:manifestation:bec26bba-7cc8-4288-91be-1aa629ea5a15\",\n  \"sectionManifest\": \"urn:pearson:manifestation:5a83646a-41b7-4041-b024-a6bc1010dab2\",\n  \"citeManifest\": \"urn:pearson:manifestation:90af3ee1-b345-43d1-afe3-0b2547edc40e\",\n\t\"requester\": \"c5test01@mctest.local\",\n\t\"timestamp\": \"2017-10-25T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "test.api.pearson.com",
-        "path": "/content/tools/wip2cite/publishslate/v1"
-      },
-      "id": "57af4860-e460-427d-8998-51260b979245",
-      "lastModified": "2018-01-17T14:08:24.888+05:30",
-      "name": "C4T-97_TC001_map to CITE template_publishSlate_200",
-      "remoteModification": "2017-10-25T09:47:05.216Z",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "rGeFx6GAhgAU7XylJjWlGEhtvmAMW4xj"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \"projectManifest\": \"{projectManifest_Publish}\",\n  \"sectionManifest\": \"{sectionManifest_Publish}\",\n  \"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"c5test01@mctest.local\",\n\t\"timestamp\": \"2017-10-25T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "test.api.pearson.com",
-        "path": "/content/tools/wip2cite/publishslate/v1"
-      },
-      "id": "60a14ab4-3b67-4c68-9eed-d4a2e9513b1c",
-      "lastModified": "2017-11-29T13:28:26.094+05:30",
-      "name": "C4T-97_TC004_map to CITE template_publishSlate_previewURL",
-      "remoteModification": "2017-10-25T09:47:05.216Z",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "rGeFx6GAhgAU7XylJjWlGEhtvmAMW4xj"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": ""
-      },
-      "headersType": "Form",
-      "uri": {
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "path": "{login}"
-      },
-      "id": "6ae759be-f03d-4876-952c-c4e0d384af27",
-      "lastModified": "2017-11-22T17:06:37.461+05:30",
-      "name": "GET_SESSION_TOKEN_UNIVERSAL",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "X-OpenAM-Username",
-          "value": "${usernameUniversal}"
-        },
-        {
-          "enabled": true,
-          "name": "X-OpenAM-Password",
-          "value": "${passwordUniversal}"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \"projectManifest\": \"{projectManifest_Publish}\",\n  \"sectionManifest\": \"1{sectionManifest_Publish}\",\n  \"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"c5test01@mctest.local\",\n\t\"timestamp\": \"2017-10-25T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "test.api.pearson.com",
-        "path": "/content/tools/wip2cite/publishslate/v1"
-      },
-      "id": "74b86dec-8e3f-4ed2-920b-07fee6abb8ee",
-      "lastModified": "2018-01-16T16:22:45.743+05:30",
-      "name": "C4T-97_TC008_map to CITE template_publishSlate_InvalidInput_sectionManifest",
-      "remoteModification": "2017-10-25T09:47:05.216Z",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "rGeFx6GAhgAU7XylJjWlGEhtvmAMW4xj"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Contains",
-          "subject": "ResponseJsonBody",
-          "path": "$.status",
-          "value": "Fail"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
-        "name": "GET"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "  {\n            \"description\": \"A Sample Activity containing a single shared writing bric\",\n            \"targetSelectorValues\": [ \"SWQ1-cntr\" ],\n\n            \"sequenceNodeKey\": \"b3d5b510-34dd-480f-b8e1-b474522c9b03\",\n            \"maxAttempts\": 3,\n\n            \"containerConfig\":\n            [\n                {\n                    \"description\": \"container for the shared writing question\",\n                    \"containerId\": \"SWQ1-cntr\",\n                    \"brixConfig\":\n                    [\n                        {\n                            \"bricId\": \"swq1\",\n                            \"bricType\": \"SharedWritingQuestion\",\n                            \"config\":\n                            {\n                                \"id\": \"swq-00001\",\n                                \"prompt\": \"How would you characterize the state of the magic forest today and why?\",\n                                \"minChars\": 8\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"questionId\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                }\n                            ],\n                            \"answerKey\":\n                            {\n                                \"assessmentType\": \"discussions\",\n                                \"answers\":\n                                {\n                                    \"masterTopicId\": \"01f60e54-2fc2-4bce-a292-a2f545c9bf48\"\n                                }\n                            }\n                        }\n                    ],\n                    \"mortarConfig\":\n                    [\n                        {\n                            \"mortarId\": \"interaction\",\n                            \"mortarType\": \"InteractionLifecycleEvent\",\n                            \"config\":\n                            {\n                                \"id\": \"swInteraction\",\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"topic\",\n                                    \"value\":\n                                    {\n                                        \"type\": \"brix-topic\",\n                                        \"bricType\": \"SharedWritingQuestion\",\n                                        \"instanceId\": \"swq-00001\",\n                                        \"eventName\": \"value-changed\"\n                                    }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"seqNodeKey\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"requestManager\",\n                                    \"value\": { \"type\": \"request-manager\" }\n                                }\n                            ]\n                        }\n                    ],\n                    \"hookupActions\":\n                    [\n                        {\n                            \"description\": \"Hookup the request manager to evaluate answers\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for discussion posts\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleGetPostsRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for adding topic comments\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleAddTopicCommentRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Draw the question\",\n                            \"type\": \"method-call\",\n                            \"instance\": {\"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\"},\n                            \"methodName\": \"draw\",\n                            \"args\":\n                            [\n                                { \"type\": \"d3select\", \"targetSelectorIndex\": 0 }\n                            ]\n                        }\n                    ]\n                }\n            ]\n        }\n"
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "name": "{protocol}"
-        },
-        "host": "{server}",
-        "path": "/{endpoint}/urn:pearson:manifestation:09cae180-76b5-4a2c-b783-dcda8deea0fc"
-      },
-      "id": "7d9764c1-150b-48d6-810d-b70cfdd71864",
-      "lastModified": "2017-11-29T13:08:18.127+05:30",
-      "name": "C4T-96_TC001_publishSlate_Read WIP from SCAPI_200",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "Accept",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "{ApiKeyName}",
-          "value": "{X-ApiKey}"
-        },
-        {
-          "enabled": true,
-          "name": "{SessionName}",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"GET_SESSION_TOKEN_UNIVERSAL\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "contentdb-URN",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "contentdb-UUID",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "Location",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "ETag",
-          "value": "200"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \"projectManifest\": \"{projectManifest_Publish}\",\n  \"sectionManifest\": \"{sectionManifest_Publish}\",\n  \"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"c5test01@mctest.local\",\n\t\"timestamp\": \"2017-10-25T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "test.api.pearson.com",
-        "path": "/content/tools/wip2cite/publishslate/v1"
-      },
-      "id": "9313f66e-aaf6-4ab7-9747-bad682cce7c8",
-      "lastModified": "2017-11-29T13:26:05.017+05:30",
-      "name": "C4T-97_TC005_map to CITE template_publishSlate_InvalidToken",
-      "remoteModification": "2017-10-25T09:47:05.216Z",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "rGeFx6GAhgAU7XylJjWlGEhtvmAMW4xj"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}1"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "401"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.valid",
-          "value": "\"false\""
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.reason",
-          "value": "\"SSO Session is invalid\""
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \"projectManifest\": \"Invalid{projectManifest_Publish}\",\n  \"sectionManifest\": \"INVALID{sectionManifest_Publish}\",\n  \"citeManifest\": \"INVALID{citeManifest_Publish}\",\n\t\"requester\": \"c5test01@mctest.local\",\n\t\"timestamp\": \"2017-10-25T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "test.api.pearson.com",
-        "path": "/content/tools/wip2cite/publishslate/v1"
-      },
-      "id": "9a8627d8-ffc7-4005-8504-2de49b35f692",
-      "lastModified": "2017-11-29T13:28:14.692+05:30",
-      "name": "C4T-97_TC003_map to CITE template_publishSlate_error",
-      "remoteModification": "2017-10-25T09:47:05.216Z",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "rGeFx6GAhgAU7XylJjWlGEhtvmAMW4xj"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.status",
-          "value": "Fail:Error Get JSONWIPContent:"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.data",
-          "value": "null"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
-        "name": "GET"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "  {\n            \"description\": \"A Sample Activity containing a single shared writing bric\",\n            \"targetSelectorValues\": [ \"SWQ1-cntr\" ],\n\n            \"sequenceNodeKey\": \"b3d5b510-34dd-480f-b8e1-b474522c9b03\",\n            \"maxAttempts\": 3,\n\n            \"containerConfig\":\n            [\n                {\n                    \"description\": \"container for the shared writing question\",\n                    \"containerId\": \"SWQ1-cntr\",\n                    \"brixConfig\":\n                    [\n                        {\n                            \"bricId\": \"swq1\",\n                            \"bricType\": \"SharedWritingQuestion\",\n                            \"config\":\n                            {\n                                \"id\": \"swq-00001\",\n                                \"prompt\": \"How would you characterize the state of the magic forest today and why?\",\n                                \"minChars\": 8\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"questionId\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                }\n                            ],\n                            \"answerKey\":\n                            {\n                                \"assessmentType\": \"discussions\",\n                                \"answers\":\n                                {\n                                    \"masterTopicId\": \"01f60e54-2fc2-4bce-a292-a2f545c9bf48\"\n                                }\n                            }\n                        }\n                    ],\n                    \"mortarConfig\":\n                    [\n                        {\n                            \"mortarId\": \"interaction\",\n                            \"mortarType\": \"InteractionLifecycleEvent\",\n                            \"config\":\n                            {\n                                \"id\": \"swInteraction\",\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"topic\",\n                                    \"value\":\n                                    {\n                                        \"type\": \"brix-topic\",\n                                        \"bricType\": \"SharedWritingQuestion\",\n                                        \"instanceId\": \"swq-00001\",\n                                        \"eventName\": \"value-changed\"\n                                    }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"seqNodeKey\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"requestManager\",\n                                    \"value\": { \"type\": \"request-manager\" }\n                                }\n                            ]\n                        }\n                    ],\n                    \"hookupActions\":\n                    [\n                        {\n                            \"description\": \"Hookup the request manager to evaluate answers\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for discussion posts\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleGetPostsRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for adding topic comments\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleAddTopicCommentRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Draw the question\",\n                            \"type\": \"method-call\",\n                            \"instance\": {\"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\"},\n                            \"methodName\": \"draw\",\n                            \"args\":\n                            [\n                                { \"type\": \"d3select\", \"targetSelectorIndex\": 0 }\n                            ]\n                        }\n                    ]\n                }\n            ]\n        }\n"
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "name": "{protocol}"
-        },
-        "host": "{server}",
-        "path": "/{endpoint}/urn:pearson:manifestation:118533fe-394f-402e-b21c-82d8c8c56de6"
-      },
-      "id": "a2557460-95bf-4555-adbd-9f2805d24548",
-      "lastModified": "2017-11-22T17:22:56.464+05:30",
-      "name": "C4T-99_TC001_publishSlate_update CITE manifest_RetrieveJSON",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "Accept",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "{ApiKeyName}",
-          "value": "{X-ApiKey}"
-        },
-        {
-          "enabled": true,
-          "name": "{SessionName}",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"GET_SESSION_TOKEN_UNIVERSAL\".\"response\".\"body\".\"tokenId\"}${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "contentdb-URN",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "contentdb-UUID",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "Location",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "ETag",
-          "value": "200"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \"projectManifest\": \"{projectManifest_Publish}\",\n  \"sectionManifest\": \"{sectionManifest_Publish}\",\n  \"citeManifest\": \"1{citeManifest_Publish}\",\n\t\"requester\": \"c5test01@mctest.local\",\n\t\"timestamp\": \"2017-10-25T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "test.api.pearson.com",
-        "path": "/content/tools/wip2cite/publishslate/v1"
-      },
-      "id": "a4e0577b-cc43-4b48-a57f-79b72637740c",
-      "lastModified": "2018-01-16T16:22:50.739+05:30",
-      "name": "C4T-97_TC009_map to CITE template_publishSlate_InvalidInput_citeManifest",
-      "remoteModification": "2017-10-25T09:47:05.216Z",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "rGeFx6GAhgAU7XylJjWlGEhtvmAMW4xj"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Contains",
-          "subject": "ResponseJsonBody",
-          "path": "$.status",
-          "value": "Fail"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
-        "name": "GET"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "  {\n            \"description\": \"A Sample Activity containing a single shared writing bric\",\n            \"targetSelectorValues\": [ \"SWQ1-cntr\" ],\n\n            \"sequenceNodeKey\": \"b3d5b510-34dd-480f-b8e1-b474522c9b03\",\n            \"maxAttempts\": 3,\n\n            \"containerConfig\":\n            [\n                {\n                    \"description\": \"container for the shared writing question\",\n                    \"containerId\": \"SWQ1-cntr\",\n                    \"brixConfig\":\n                    [\n                        {\n                            \"bricId\": \"swq1\",\n                            \"bricType\": \"SharedWritingQuestion\",\n                            \"config\":\n                            {\n                                \"id\": \"swq-00001\",\n                                \"prompt\": \"How would you characterize the state of the magic forest today and why?\",\n                                \"minChars\": 8\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"questionId\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                }\n                            ],\n                            \"answerKey\":\n                            {\n                                \"assessmentType\": \"discussions\",\n                                \"answers\":\n                                {\n                                    \"masterTopicId\": \"01f60e54-2fc2-4bce-a292-a2f545c9bf48\"\n                                }\n                            }\n                        }\n                    ],\n                    \"mortarConfig\":\n                    [\n                        {\n                            \"mortarId\": \"interaction\",\n                            \"mortarType\": \"InteractionLifecycleEvent\",\n                            \"config\":\n                            {\n                                \"id\": \"swInteraction\",\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"topic\",\n                                    \"value\":\n                                    {\n                                        \"type\": \"brix-topic\",\n                                        \"bricType\": \"SharedWritingQuestion\",\n                                        \"instanceId\": \"swq-00001\",\n                                        \"eventName\": \"value-changed\"\n                                    }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"seqNodeKey\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"requestManager\",\n                                    \"value\": { \"type\": \"request-manager\" }\n                                }\n                            ]\n                        }\n                    ],\n                    \"hookupActions\":\n                    [\n                        {\n                            \"description\": \"Hookup the request manager to evaluate answers\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for discussion posts\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleGetPostsRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for adding topic comments\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleAddTopicCommentRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Draw the question\",\n                            \"type\": \"method-call\",\n                            \"instance\": {\"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\"},\n                            \"methodName\": \"draw\",\n                            \"args\":\n                            [\n                                { \"type\": \"d3select\", \"targetSelectorIndex\": 0 }\n                            ]\n                        }\n                    ]\n                }\n            ]\n        }\n"
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "name": "{protocol}"
-        },
-        "host": "{server}",
-        "path": "/1{endpoint}/{citeManifest_Publish}"
-      },
-      "id": "bc568e68-8d3e-4000-836c-c9e8220ebde6",
-      "lastModified": "2017-11-22T17:22:45.118+05:30",
-      "name": "C4T-96_TC002_publishSlate_Read WIP from SCAPI_404",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "Accept",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "{ApiKeyName}",
-          "value": "{X-ApiKey}"
-        },
-        {
-          "enabled": true,
-          "name": "{SessionName}",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"GET_SESSION_TOKEN_UNIVERSAL\".\"response\".\"body\".\"tokenId\"}${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "404"
-        },
-        {
-          "comparison": "Contains",
-          "subject": "ResponseJsonBody",
-          "path": "$.fault.faultstring",
-          "value": "Unable to identify proxy for host: apipearsoncom and url: /1content/scapi"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.fault.detail.errorcode",
-          "value": "messaging.adaptors.http.flow.ApplicationNotFound"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "formBody": {
-          "overrideContentType": true,
-          "encoding": "application/x-www-form-urlencoded"
-        },
-        "bodyType": "Text",
-        "autoSetLength": true
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "identity-internal-test.pearson.com",
-        "path": "/auth/json/pearson/authenticate"
-      },
-      "id": "bd895f73-8af1-48c7-927b-207e6665e44c",
-      "lastModified": "2018-01-17T13:55:45.003+05:30",
-      "name": "CurlToken",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "postman-token",
-          "value": "47b97d5a-8ddc-dd5c-b380-aac807a2e2dc"
-        },
-        {
-          "enabled": true,
-          "name": "x-openam-password",
-          "value": "Password1"
-        },
-        {
-          "enabled": true,
-          "name": "x-openam-username",
-          "value": "sso2"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
-        "name": "GET"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "  {\n            \"description\": \"A Sample Activity containing a single shared writing bric\",\n            \"targetSelectorValues\": [ \"SWQ1-cntr\" ],\n\n            \"sequenceNodeKey\": \"b3d5b510-34dd-480f-b8e1-b474522c9b03\",\n            \"maxAttempts\": 3,\n\n            \"containerConfig\":\n            [\n                {\n                    \"description\": \"container for the shared writing question\",\n                    \"containerId\": \"SWQ1-cntr\",\n                    \"brixConfig\":\n                    [\n                        {\n                            \"bricId\": \"swq1\",\n                            \"bricType\": \"SharedWritingQuestion\",\n                            \"config\":\n                            {\n                                \"id\": \"swq-00001\",\n                                \"prompt\": \"How would you characterize the state of the magic forest today and why?\",\n                                \"minChars\": 8\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"questionId\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                }\n                            ],\n                            \"answerKey\":\n                            {\n                                \"assessmentType\": \"discussions\",\n                                \"answers\":\n                                {\n                                    \"masterTopicId\": \"01f60e54-2fc2-4bce-a292-a2f545c9bf48\"\n                                }\n                            }\n                        }\n                    ],\n                    \"mortarConfig\":\n                    [\n                        {\n                            \"mortarId\": \"interaction\",\n                            \"mortarType\": \"InteractionLifecycleEvent\",\n                            \"config\":\n                            {\n                                \"id\": \"swInteraction\",\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"topic\",\n                                    \"value\":\n                                    {\n                                        \"type\": \"brix-topic\",\n                                        \"bricType\": \"SharedWritingQuestion\",\n                                        \"instanceId\": \"swq-00001\",\n                                        \"eventName\": \"value-changed\"\n                                    }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"seqNodeKey\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"requestManager\",\n                                    \"value\": { \"type\": \"request-manager\" }\n                                }\n                            ]\n                        }\n                    ],\n                    \"hookupActions\":\n                    [\n                        {\n                            \"description\": \"Hookup the request manager to evaluate answers\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for discussion posts\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleGetPostsRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for adding topic comments\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleAddTopicCommentRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Draw the question\",\n                            \"type\": \"method-call\",\n                            \"instance\": {\"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\"},\n                            \"methodName\": \"draw\",\n                            \"args\":\n                            [\n                                { \"type\": \"d3select\", \"targetSelectorIndex\": 0 }\n                            ]\n                        }\n                    ]\n                }\n            ]\n        }\n"
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "name": "{protocol}"
-        },
-        "host": "{server}",
-        "path": "/{endpoint}/urn:pearson:manifestation:118533fe-394f-402e-b21c-82d8c8c56de6"
-      },
-      "id": "e7949523-b0c1-40b0-b224-05fc8db5a1f4",
-      "lastModified": "2017-11-22T17:23:21.642+05:30",
-      "name": "C4T-99_TC005_publishSlate_update CITE manifest_RetrieveJSON",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "Accept",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "{ApiKeyName}",
-          "value": "{X-ApiKey}"
-        },
-        {
-          "enabled": true,
-          "name": "{SessionName}",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"GET_SESSION_TOKEN_UNIVERSAL\".\"response\".\"body\".\"tokenId\"}${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "contentdb-URN",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "contentdb-UUID",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "Location",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "ETag",
-          "value": "200"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
-        "name": "GET"
-      },
-      "body": {
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "  {\n            \"description\": \"A Sample Activity containing a single shared writing bric\",\n            \"targetSelectorValues\": [ \"SWQ1-cntr\" ],\n\n            \"sequenceNodeKey\": \"b3d5b510-34dd-480f-b8e1-b474522c9b03\",\n            \"maxAttempts\": 3,\n\n            \"containerConfig\":\n            [\n                {\n                    \"description\": \"container for the shared writing question\",\n                    \"containerId\": \"SWQ1-cntr\",\n                    \"brixConfig\":\n                    [\n                        {\n                            \"bricId\": \"swq1\",\n                            \"bricType\": \"SharedWritingQuestion\",\n                            \"config\":\n                            {\n                                \"id\": \"swq-00001\",\n                                \"prompt\": \"How would you characterize the state of the magic forest today and why?\",\n                                \"minChars\": 8\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"questionId\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                }\n                            ],\n                            \"answerKey\":\n                            {\n                                \"assessmentType\": \"discussions\",\n                                \"answers\":\n                                {\n                                    \"masterTopicId\": \"01f60e54-2fc2-4bce-a292-a2f545c9bf48\"\n                                }\n                            }\n                        }\n                    ],\n                    \"mortarConfig\":\n                    [\n                        {\n                            \"mortarId\": \"interaction\",\n                            \"mortarType\": \"InteractionLifecycleEvent\",\n                            \"config\":\n                            {\n                                \"id\": \"swInteraction\",\n                            },\n                            \"configFixup\":\n                            [\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"topic\",\n                                    \"value\":\n                                    {\n                                        \"type\": \"brix-topic\",\n                                        \"bricType\": \"SharedWritingQuestion\",\n                                        \"instanceId\": \"swq-00001\",\n                                        \"eventName\": \"value-changed\"\n                                    }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"seqNodeKey\",\n                                    \"value\": { \"type\": \"ref\", \"domain\": \"info\", \"refId\": \"sequenceNodeKey\" }\n                                },\n                                {\n                                    \"type\": \"set-property\",\n                                    \"name\": \"requestManager\",\n                                    \"value\": { \"type\": \"request-manager\" }\n                                }\n                            ]\n                        }\n                    ],\n                    \"hookupActions\":\n                    [\n                        {\n                            \"description\": \"Hookup the request manager to evaluate answers\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for discussion posts\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleGetPostsRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Hookup the request manager to handle requests for adding topic comments\",\n                            \"type\": \"method-call\",\n                            \"instance\": { \"type\": \"request-manager\" },\n                            \"methodName\": \"handleAddTopicCommentRequestsFrom\",\n                            \"args\":\n                            [\n                                { \"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\" }\n                            ]\n                        },\n                        {\n                            \"description\": \"Draw the question\",\n                            \"type\": \"method-call\",\n                            \"instance\": {\"type\": \"ref\", \"domain\": \"brix\", \"refId\": \"swq1\"},\n                            \"methodName\": \"draw\",\n                            \"args\":\n                            [\n                                { \"type\": \"d3select\", \"targetSelectorIndex\": 0 }\n                            ]\n                        }\n                    ]\n                }\n            ]\n        }\n"
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "name": "{protocol}"
-        },
-        "host": "{server}",
-        "path": "/{endpoint}/urn:pearson:manifestation:118533fe-394f-402e-b21c-82d8c8c56de6"
-      },
-      "id": "fb2f9fec-9907-4b90-ad3e-fb1612202b60",
-      "lastModified": "2017-11-22T17:23:14.994+05:30",
-      "name": "C4T-99_TC004_publishSlate_update CITE manifest_RetrieveJSON",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "Accept",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "{ApiKeyName}",
-          "value": "{X-ApiKey}"
-        },
-        {
-          "enabled": true,
-          "name": "{SessionName}",
-          "value": "${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"GET_SESSION_TOKEN_UNIVERSAL\".\"response\".\"body\".\"tokenId\"}${\"Test\".\"Publist Title - C4T-96-97-98-99\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "contentdb-URN",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "contentdb-UUID",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "Location",
-          "value": "200"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseHeader",
-          "path": "ETag",
-          "value": "200"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02ce40d0afd33ef2b2d45d"
-      },
-      "parentId": "90532a9c-9126-46a8-be94-bcfc1bbdce87"
-    },
-    {
-      "type": "Scenario",
-      "id": "f0efd189-5b8d-404d-9e56-c8b0851efb23",
-      "lastModified": "2018-01-08T19:23:54.682+05:30",
-      "name": "PrintOnDemand",
-      "requestOrder": [
-        "CurlToken",
-        "C4T-233_TC001_PrintOnDemand_registerpod_200",
-        "C4T-233_TC004_PrintOnDemand_registerpod_FailStatus",
-        "C4T-233_TC005_PrintOnDemand_registerpod_InvalidDisciplineID",
-        "C4T-233_TC006_PrintOnDemand_registerpod_InvalidProjectManifest",
-        "C4T-233_TC008_PrintOnDemand_registerpod_PDFMultipleChapter",
-        "C4T-233_TC009_PrintOnDemand_registerpod_InvalidToken",
-        "C4T-233_TC010_PrintOnDemand_registerpod_InvalidApiKey",
-        "C4T-233_TC013_PrintOnDemand_registerpod_PDFConversionFailed",
-        "C4T-233_TC014_PrintOnDemand_registerpod_UpperCase_Email",
-        "C4T-233_TC015_PrintOnDemand_registerpod_Response",
-        "C4T-418_TC001_Verify_registerPODAPI_URL_hyperlink",
-        "C4T-418_TC005_Verify_DownloadPDF_WithSingleChapter",
-        "C4T-418_TC006_Verify_DownloadPDF_WithMultipleChapter"
-      ],
-      "parentId": "8f4f8c92-6a0a-4054-af34-efe1434483a0"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "formBody": {
-          "overrideContentType": true,
-          "encoding": "application/x-www-form-urlencoded",
-          "items": []
-        },
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \t\"projectManifest\": \"{projectManifest_Publish}\",\n  \t\"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"pradeepkumar.renganathan@pearson.com\",\n  \t\"displineID\": \"40288184-42e3c56b-0142-e3c5822f-0000\",\n\t\"timestamp\": \"2017-12-13T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "retryConfiguration": {
-        "enabled": true,
-        "intervalInSeconds": 10,
-        "retryCount": 2
-      },
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "staging.api.pearson.com",
-        "path": "/content/tools/printondemand/registerpod/v1/"
-      },
-      "id": "0371582b-0676-4dd1-8dc3-39dbcd10472d",
-      "lastModified": "2018-01-08T19:23:54.682+05:30",
-      "name": "C4T-233_TC001_PrintOnDemand_registerpod_200",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "INpAP0MaiVP9Rohy4rB0ue3j2SGE3Abk"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"PrintOnDemand\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.status",
-          "value": "success"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02d68d38ce8c5dace1ed7b"
-      },
-      "parentId": "f0efd189-5b8d-404d-9e56-c8b0851efb23"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "formBody": {
-          "overrideContentType": true,
-          "encoding": "application/x-www-form-urlencoded",
-          "items": []
-        },
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \t\"projectManifest\": \"az{projectManifest_Publish}1\",\n  \t\"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"pradeepkumar.renganathan@pearson.com\",\n  \t\"displineID\": \"40288184-42e3c56b-0142-e3c5822f-0000\",\n\t\"timestamp\": \"2017-12-13T19:53:40.954Z\"\n}"
-      },
-      "headersType": "Form",
-      "retryConfiguration": {
-        "enabled": true,
-        "intervalInSeconds": 10,
-        "retryCount": 2
-      },
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "staging.api.pearson.com",
-        "path": "/content/tools/printondemand/registerpod/v1/"
-      },
-      "id": "0eaaba02-2651-4ee3-85d2-e1fa9ce51b8f",
-      "lastModified": "2018-01-08T19:23:54.683+05:30",
-      "name": "C4T-233_TC006_PrintOnDemand_registerpod_InvalidProjectManifest",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "INpAP0MaiVP9Rohy4rB0ue3j2SGE3Abk"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"PrintOnDemand\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.status",
-          "value": "success"
-        },
-        {
-          "comparison": "Contains",
-          "subject": "ResponseJsonBody",
-          "path": "$.data.input.projectManifest",
-          "value": "azurn:"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02d68d38ce8c5dace1ed7b"
-      },
-      "parentId": "f0efd189-5b8d-404d-9e56-c8b0851efb23"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "formBody": {
-          "overrideContentType": true,
-          "encoding": "application/x-www-form-urlencoded",
-          "items": []
-        },
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBodyEditorHeight": 235,
-        "textBody": "{\n  \t\"projectManifest\": \"{projectManifest_SingleChapter}\",\n  \t\"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"pradeepkumar.renganathan@pearson.com\",\n  \t\"displineID\": \"40288184-42e3c56b-0142-e3c5822f-0000\",\n\t\"timestamp\": \"2017-12-27T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "retryConfiguration": {
-        "enabled": true,
-        "intervalInSeconds": 10,
-        "retryCount": 2
-      },
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "staging.api.pearson.com",
-        "path": "/content/tools/printondemand/registerpod/v1/"
-      },
-      "id": "236b846f-7466-4d78-83bc-d14abdf50ca7",
-      "lastModified": "2018-01-08T19:23:54.683+05:30",
-      "name": "C4T-418_TC006_Verify_DownloadPDF_WithMultipleChapter",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "INpAP0MaiVP9Rohy4rB0ue3j2SGE3Abk"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"PrintOnDemand\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.status",
-          "value": "success"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02d68d38ce8c5dace1ed7b"
-      },
-      "parentId": "f0efd189-5b8d-404d-9e56-c8b0851efb23"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "formBody": {
-          "overrideContentType": true,
-          "encoding": "application/x-www-form-urlencoded",
-          "items": []
-        },
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \t\"projectManifest\": \"{projectManifest_Publish}\",\n  \t\"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"InvalidRequestorForPDFFail\",\n  \t\"displineID\": \"40288184-42e3c56b-0142-e3c5822f-0000\",\n\t\"timestamp\": \"2017-12-13T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "retryConfiguration": {
-        "enabled": true,
-        "intervalInSeconds": 10,
-        "retryCount": 2
-      },
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "staging.api.pearson.com",
-        "path": "/content/tools/printondemand/registerpod/v1/"
-      },
-      "id": "28d805d1-ceac-41ee-a6c0-ee374b030375",
-      "lastModified": "2018-01-08T19:23:54.683+05:30",
-      "name": "C4T-233_TC013_PrintOnDemand_registerpod_PDFConversionFailed",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "INpAP0MaiVP9Rohy4rB0ue3j2SGE3Abk"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"PrintOnDemand\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.status",
-          "value": "fail"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.data.label",
-          "value": "requester invalid"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02d68d38ce8c5dace1ed7b"
-      },
-      "parentId": "f0efd189-5b8d-404d-9e56-c8b0851efb23"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "formBody": {
-          "overrideContentType": true,
-          "encoding": "application/x-www-form-urlencoded",
-          "items": []
-        },
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \t\"projectManifest\": \"{projectManifest_Publish}\",\n  \t\"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"pradeepkumar.renganathan@pearson.com\",\n  \t\"displineID\": \"40288184-42e3c56b-0142-e3c5822f-0000\",\n\t\"timestamp\": \"2017-12-13T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "retryConfiguration": {
-        "enabled": true,
-        "intervalInSeconds": 10,
-        "retryCount": 2
-      },
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "staging.api.pearson.com",
-        "path": "/content/tools/printondemand/registerpod/v1/"
-      },
-      "id": "627e49f9-c22e-4924-8402-ec1f56f3421a",
-      "lastModified": "2018-01-08T19:23:54.683+05:30",
-      "name": "C4T-233_TC010_PrintOnDemand_registerpod_InvalidApiKey",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "InvalidApiKey"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"PrintOnDemand\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "401"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.fault.faultstring",
-          "value": "Invalid ApiKey"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02d68d38ce8c5dace1ed7b"
-      },
-      "parentId": "f0efd189-5b8d-404d-9e56-c8b0851efb23"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "formBody": {
-          "overrideContentType": true,
-          "encoding": "application/x-www-form-urlencoded",
-          "items": []
-        },
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \t\"projectManifest\": \"{projectManifest_Publish}\",\n  \t\"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"pradeepkumar.renganathan@pearson.com\",\n  \t\"displineID\": \"40288184-42e3c56b-0142-e3c5822f-0000\",\n\t\"timestamp\": \"2017-12-13T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "retryConfiguration": {
-        "enabled": true,
-        "intervalInSeconds": 10,
-        "retryCount": 2
-      },
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "staging.api.pearson.com",
-        "path": "/content/tools/printondemand/registerpod/v1/"
-      },
-      "id": "6ca7e905-31e8-49d5-aa3b-5c6c1844f2ed",
-      "lastModified": "2018-01-08T19:23:54.683+05:30",
-      "name": "C4T-233_TC008_PrintOnDemand_registerpod_PDFMultipleChapter",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "INpAP0MaiVP9Rohy4rB0ue3j2SGE3Abk"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"PrintOnDemand\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.status",
-          "value": "success"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02d68d38ce8c5dace1ed7b"
-      },
-      "parentId": "f0efd189-5b8d-404d-9e56-c8b0851efb23"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "formBody": {
-          "overrideContentType": true,
-          "encoding": "application/x-www-form-urlencoded",
-          "items": []
-        },
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \t\"projectManifest\": \"{projectManifest_Publish}\",\n  \t\"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"pradeepkumar.renganathan@pearson.com\",\n  \t\"displineID\": \"40288184-42e3c56b-0142-e3c5822f-0000\",\n\t\"timestamp\": \"2017-12-13T19:53:40.954Z\"\n}"
-      },
-      "headersType": "Form",
-      "retryConfiguration": {
-        "enabled": true,
-        "intervalInSeconds": 10,
-        "retryCount": 2
-      },
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "staging.api.pearson.com",
-        "path": "/content/tools/printondemand/registerpod/v1/"
-      },
-      "id": "7f8973b5-baac-4129-be8c-1422a037753e",
-      "lastModified": "2018-01-08T19:23:54.683+05:30",
-      "name": "C4T-233_TC015_PrintOnDemand_registerpod_Response",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "INpAP0MaiVP9Rohy4rB0ue3j2SGE3Abk"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"PrintOnDemand\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.status",
-          "value": "success"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseJsonBody",
-          "path": "$.data.input",
-          "value": "${\"Test\".\"Scenario 2\".\"C4T-233_TC015_PrintOnDemand_registerpod_Response\".\"request\".\"body\".\"timestamp\"}"
-        },
-        {
-          "comparison": "Exists",
-          "subject": "ResponseJsonBody",
-          "path": "$.data.timestamp",
-          "value": "200"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02d68d38ce8c5dace1ed7b"
-      },
-      "parentId": "f0efd189-5b8d-404d-9e56-c8b0851efb23"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "formBody": {
-          "overrideContentType": true,
-          "encoding": "application/x-www-form-urlencoded",
-          "items": []
-        },
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \t\"projectManifest\": \"{projectManifest_Publish}\",\n  \t\"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"pradeepkumar.renganathan@pearson.com\",\n  \t\"displineID\": \"40288184-42e3c56b-0142-e3c5822f-0000\",\n\t\"timestamp\": \"2017-12-12T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "retryConfiguration": {
-        "enabled": true,
-        "intervalInSeconds": 10,
-        "retryCount": 2
-      },
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "staging.api.pearson.com",
-        "path": "/content/tools/printondemand/registerpod/v1/"
-      },
-      "id": "87409cbc-8b31-4823-a330-b9646baef25b",
-      "lastModified": "2018-01-08T19:23:54.683+05:30",
-      "name": "C4T-418_TC001_Verify_registerPODAPI_URL_hyperlink",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "INpAP0MaiVP9Rohy4rB0ue3j2SGE3Abk"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"PrintOnDemand\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.status",
-          "value": "success"
-        },
-        {
-          "comparison": "Contains",
-          "subject": "ResponseJsonBody",
-          "path": "$.data.input.timestamp",
-          "value": "${\"2017\"}"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02d68d38ce8c5dace1ed7b"
-      },
-      "parentId": "f0efd189-5b8d-404d-9e56-c8b0851efb23"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "formBody": {
-          "overrideContentType": true,
-          "encoding": "application/x-www-form-urlencoded",
-          "items": []
-        },
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \t\"projectManifest\": \"{projectManifest_Publish}\",\n  \t\"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"pradeepkumar.renganathan@pearson.com\",\n  \t\"displineID\": \"40288184-42e3c56b-0142-e3c5822f-0000\",\n\t\"timestamp\": \"2017-12-13T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "retryConfiguration": {
-        "enabled": true,
-        "intervalInSeconds": 10,
-        "retryCount": 2
-      },
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "staging.api.pearson.com",
-        "path": "/content/tools/printondemand/registerpod/v1/"
-      },
-      "id": "90358cdd-5cdf-47dc-a41c-627bba543575",
-      "lastModified": "2018-01-08T19:23:54.683+05:30",
-      "name": "C4T-233_TC009_PrintOnDemand_registerpod_InvalidToken",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "INpAP0MaiVP9Rohy4rB0ue3j2SGE3Abk"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "Invalid_TokenID"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "401"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.valid",
-          "value": "\"false\""
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.reason",
-          "value": "SSO Session is invalid"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02d68d38ce8c5dace1ed7b"
-      },
-      "parentId": "f0efd189-5b8d-404d-9e56-c8b0851efb23"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "formBody": {
-          "overrideContentType": true,
-          "encoding": "application/x-www-form-urlencoded",
-          "items": []
-        },
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \t\"projectManifest\": \"{projectManifest_SingleChapter}\",\n  \t\"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"pradeepkumar.renganathan@pearson.com\",\n  \t\"displineID\": \"40288184-42e3c56b-0142-e3c5822f-0000\",\n\t\"timestamp\": \"2017-12-13T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "retryConfiguration": {
-        "enabled": true,
-        "intervalInSeconds": 10,
-        "retryCount": 2
-      },
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "staging.api.pearson.com",
-        "path": "/content/tools/printondemand/registerpod/v1/"
-      },
-      "id": "a3841905-d2d4-4563-b44d-229000d8c2d1",
-      "lastModified": "2018-01-08T19:23:54.683+05:30",
-      "name": "C4T-418_TC005_Verify_DownloadPDF_WithSingleChapter",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "INpAP0MaiVP9Rohy4rB0ue3j2SGE3Abk"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"PrintOnDemand\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.status",
-          "value": "success"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02d68d38ce8c5dace1ed7b"
-      },
-      "parentId": "f0efd189-5b8d-404d-9e56-c8b0851efb23"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "formBody": {
-          "overrideContentType": true,
-          "encoding": "application/x-www-form-urlencoded"
-        },
-        "bodyType": "Text",
-        "autoSetLength": true
-      },
-      "headersType": "Form",
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "identity-internal-test.pearson.com",
-        "path": "/auth/json/pearson/authenticate"
-      },
-      "id": "b6b8c13d-bad9-4ab0-a308-6671a2a928cc",
-      "lastModified": "2018-01-16T16:18:45.679+05:30",
-      "name": "CurlToken",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "postman-token",
-          "value": "47b97d5a-8ddc-dd5c-b380-aac807a2e2dc"
-        },
-        {
-          "enabled": true,
-          "name": "x-openam-password",
-          "value": "Password1"
-        },
-        {
-          "enabled": true,
-          "name": "x-openam-username",
-          "value": "c5test01"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a530f95f3cc5e28c0cbbd0a"
-      },
-      "parentId": "f0efd189-5b8d-404d-9e56-c8b0851efb23"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "formBody": {
-          "overrideContentType": true,
-          "encoding": "application/x-www-form-urlencoded",
-          "items": []
-        },
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \t\"projectManifest\": \"{projectManifest_Publish}\",\n  \t\"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"pradeepkumar.renganathan@pearson.com\",\n  \t\"displineID\": \"Invalid_Discipline_ID\",\n\t\"timestamp\": \"2017-12-13T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "retryConfiguration": {
-        "enabled": true,
-        "intervalInSeconds": 10,
-        "retryCount": 2
-      },
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "staging.api.pearson.com",
-        "path": "/content/tools/printondemand/registerpod/v1/"
-      },
-      "id": "bf1ae75d-1e1c-4407-be87-de649dc8dfe2",
-      "lastModified": "2018-01-08T19:23:54.683+05:30",
-      "name": "C4T-233_TC005_PrintOnDemand_registerpod_InvalidDisciplineID",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "INpAP0MaiVP9Rohy4rB0ue3j2SGE3Abk"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"PrintOnDemand\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.status",
-          "value": "fail"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.data.label",
-          "value": "displineid invalid"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02d68d38ce8c5dace1ed7b"
-      },
-      "parentId": "f0efd189-5b8d-404d-9e56-c8b0851efb23"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "formBody": {
-          "overrideContentType": true,
-          "encoding": "application/x-www-form-urlencoded",
-          "items": []
-        },
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \t\"projectManifest\": \"{projectManifest_Publish}\",\n  \t\"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"pradeepkumar.renganathan@pearson\",\n  \t\"displineID\": \"40288184-42e3c56b-0142-e3c5822f-0000\",\n\t\"timestamp\": \"2017-12-13T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "retryConfiguration": {
-        "enabled": true,
-        "intervalInSeconds": 10,
-        "retryCount": 2
-      },
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "staging.api.pearson.com",
-        "path": "/content/tools/printondemand/registerpod/v1/"
-      },
-      "id": "caa6d9b2-a336-4b58-a5a6-b1193ffd590a",
-      "lastModified": "2018-01-08T19:23:54.683+05:30",
-      "name": "C4T-233_TC004_PrintOnDemand_registerpod_FailStatus",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "INpAP0MaiVP9Rohy4rB0ue3j2SGE3Abk"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"PrintOnDemand\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.status",
-          "value": "fail"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.data.label",
-          "value": "requester invalid"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02d68d38ce8c5dace1ed7b"
-      },
-      "parentId": "f0efd189-5b8d-404d-9e56-c8b0851efb23"
-    },
-    {
-      "type": "Request",
-      "method": {
-        "requestBody": true,
-        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
-        "name": "POST"
-      },
-      "body": {
-        "formBody": {
-          "overrideContentType": true,
-          "encoding": "application/x-www-form-urlencoded",
-          "items": []
-        },
-        "bodyType": "Text",
-        "autoSetLength": true,
-        "textBody": "{\n  \t\"projectManifest\": \"{projectManifest_Publish}\",\n  \t\"citeManifest\": \"{citeManifest_Publish}\",\n\t\"requester\": \"PRADEEPKUMAR.RENGANATHAN@PEARSON.COM\",\n  \t\"displineID\": \"40288184-42e3c56b-0142-e3c5822f-0000\",\n\t\"timestamp\": \"2017-12-13T19:53:40.954Z\"\n} "
-      },
-      "headersType": "Form",
-      "retryConfiguration": {
-        "enabled": true,
-        "intervalInSeconds": 10,
-        "retryCount": 2
-      },
-      "uri": {
-        "query": {
-          "delimiter": "&",
-          "items": []
-        },
-        "scheme": {
-          "secure": true,
-          "name": "https",
-          "version": "V11"
-        },
-        "host": "staging.api.pearson.com",
-        "path": "/content/tools/printondemand/registerpod/v1/"
-      },
-      "id": "d45078b6-06de-485e-b12d-3529ceaa2329",
-      "lastModified": "2018-01-08T19:23:54.683+05:30",
-      "name": "C4T-233_TC014_PrintOnDemand_registerpod_UpperCase_Email",
-      "headers": [
-        {
-          "enabled": true,
-          "name": "x-apikey",
-          "value": "INpAP0MaiVP9Rohy4rB0ue3j2SGE3Abk"
-        },
-        {
-          "enabled": true,
-          "name": "X-PearsonSSOSession",
-          "value": "${\"Test\".\"PrintOnDemand\".\"CurlToken\".\"response\".\"body\".\"tokenId\"}"
-        },
-        {
-          "enabled": true,
-          "name": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "enabled": true,
-          "name": "Origin",
-          "value": "http://localhost:3000"
-        }
-      ],
-      "assertions": [
-        {
-          "comparison": "Equals",
-          "subject": "ResponseStatus",
-          "path": "code",
-          "value": "200"
-        },
-        {
-          "comparison": "Equals",
-          "subject": "ResponseJsonBody",
-          "path": "$.status",
-          "value": "success"
-        }
-      ],
-      "metaInfo": {
-        "ownerId": "auth0|5a02d68d38ce8c5dace1ed7b"
-      },
-      "parentId": "f0efd189-5b8d-404d-9e56-c8b0851efb23"
     },
     {
       "type": "Context",
